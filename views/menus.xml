@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Top menu item -->
+        <menuitem name="Dailylist" id="dailylist.menu_root"/>
+        
+        <!-- Menu categories -->
+        <menuitem name="Gestión" id="dailylist.menu_1" parent="dailylist.menu_root"/>
+        
+        <!-- Actions -->
+        <menuitem name="Artistas" id="menu_artist" parent="dailylist.menu_1" action="action_artist"/>
+        <menuitem name="Álbumes" id="menu_album" parent="dailylist.menu_1" action="action_album"/>
+        <menuitem name="Playlists" id="menu_playlist" parent="dailylist.menu_1" action="action_playlist"/>
+        <menuitem name="Géneros" id="menu_genre" parent="dailylist.menu_1" action="action_genre"/>
+    </data>
+</odoo>

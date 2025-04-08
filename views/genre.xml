@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Vista lista -->
+        <record id="view_genre_list" model="ir.ui.view">
+            <field name="name">dailylist.genre.list</field>
+            <field name="model">dailylist.genre</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="name"/>
+                </list>
+            </field>
+        </record>
+
+        <!-- Vista formulario -->
+        <record id="view_genre_form" model="ir.ui.view">
+            <field name="name">dailylist.genre.form</field>
+            <field name="model">dailylist.genre</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Action window -->
+        <record id="action_genre" model="ir.actions.act_window">
+            <field name="name">Géneros</field>
+            <field name="res_model">dailylist.genre</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>
