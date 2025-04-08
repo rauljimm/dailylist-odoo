@@ -1,6 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_dailylist_album,dailylist.album,model_dailylist_album,base.group_user,1,1,1,1
-access_dailylist_artist,dailylist.artist,model_dailylist_artist,base.group_user,1,1,1,1
-access_dailylist_playlist,dailylist.playlist,model_dailylist_playlist,base.group_user,1,1,1,1
-access_dailylist_song,dailylist.song,model_dailylist_song,base.group_user,1,1,1,1
-access_dailylist.genre,dailylist.genre,model_dailylist_genre,base.group_user,1,1,1,1
