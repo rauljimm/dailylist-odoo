@@ -1,5 +1,7 @@
 # 🎵 Dailylist Odoo
 
+![Dailylist Odoo Logo](https://github.com/rauljimm/dailylist-odoo/blob/main/static/description/icon.png)
+
 Welcome to Dailylist Odoo, an Odoo application that integrates with Spotify and Genius to provide an enriched musical experience.
 
 ## 📋 Description
